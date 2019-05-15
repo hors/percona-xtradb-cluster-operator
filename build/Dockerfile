@@ -2,7 +2,7 @@ FROM registry.access.redhat.com/ubi7/ubi-minimal
 RUN microdnf update && microdnf clean all
 
 MAINTAINER Percona Development <info@percona.com>
-LABEL name="Percona XtraDB Cluster Operator" \
+LABEL name="Percona XtraDB Cluster Operators" \
       vendor="Percona" \
       summary="Percona XtraDB Cluster is an active/active high availability and high scalability open source solution for MySQL clustering" \
       description="Percona XtraDB Cluster is a high availability solution that helps enterprises avoid downtime and outages and meet expected customer experience."

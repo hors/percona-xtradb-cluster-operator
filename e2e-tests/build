@@ -6,7 +6,7 @@ set -o xtrace
 test_dir="$(dirname $0)"
 . $(dirname $0)/functions
 src_dir="$(realpath ${test_dir}/..)"
-
+# test
 build_operator() {
     package=github.com/percona/percona-xtradb-cluster-operator
     docker run --rm -v ${src_dir}:/go/src/${package} golang:1.12 sh -c "

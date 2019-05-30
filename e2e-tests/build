@@ -2,7 +2,7 @@
 
 set -o errexit
 set -o xtrace
-
+#test
 test_dir="$(dirname $0)"
 . $(dirname $0)/functions
 src_dir="$(realpath ${test_dir}/..)"
